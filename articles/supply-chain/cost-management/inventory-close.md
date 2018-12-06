@@ -38,7 +38,7 @@ As part of the process to settle issue transactions with receipt transactions, y
 
 The inventory close process settles issue transactions to receipt transactions, based on the inventory valuation method that is selected in the item’s item model group. As part of the settlement process, you can specify that the general ledger should be updated, so that it reflects the adjustments that have been made. However, until inventory close or recalculation has been run, issue transactions are posted at the calculated running average cost price. 
 
-After inventory close, you can no longer post in periods that are before the inventory closing date that you set, unless you reverse a completed inventory close process. For example, if inventory close is run for the period that ends on January 31, you can't post transactions that have a date that is earlier than January 31. 
+After inventory close, you can no longer post in periods that are before the inventory closing date that you set, unless you reverse a completed inventory close process. For example, if inventory close is run for the period that ends on January 31, you can't post transactions that have a date that is earlier than Feburary 01. 
 
 Items in inventory are assigned to one of two inventory types: item or service. Inventory close performs the same functions for both types. However, for service items, inventory close still settles issues to receipts. 
 
